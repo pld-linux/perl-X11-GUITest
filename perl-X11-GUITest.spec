@@ -6,6 +6,7 @@
 %define		pdir	X11
 %define		pnam	GUITest
 Summary:	X11::GUITest - GUI testing/interaction facilities
+Summary(pl):	X11::GUITest - u³atwienia do testowania/interakcji z GUI
 Name:		perl-X11-GUITest
 Version:	0.20
 Release:	0.1
@@ -21,10 +22,17 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This Perl package is intended to facilitate the testing of GUI
-applications by means of user emulation. It can be used to test/interact
-with GUI applications; which have been built upon the X library or
-toolkits (i.e., GTK+, Xt, Qt, Motif, etc.) that "wrap" the X library's
-functionality.
+applications by means of user emulation. It can be used to
+test/interact with GUI applications which have been built upon the X
+library or toolkits (i.e., GTK+, Xt, Qt, Motif, etc.) that "wrap" the
+X library's functionality.
+
+%description -l pl
+Ten pakiet Perla ma u³atwiæ testowanie aplikacji z graficznym
+interfejsem u¿ytkownika drog± emulacji u¿ytkownika. Mo¿e byæ u¿ywany
+do testowania lub interakcji z aplikacjami GUI opartymi o bibliotekê X
+lub toolkity (takie jak GTK+, Xt, Qt, Motif itp.) obudowuj±ce
+funkcjonalno¶æ biblioteki X.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -49,9 +57,9 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README docs/{Changes,ToDo}
 %dir %{perl_vendorarch}/X11
+%{perl_vendorarch}/X11/GUITest.pm
 %dir %{perl_vendorarch}/auto/X11
 %dir %{perl_vendorarch}/auto/X11/GUITest
-%{perl_vendorarch}/X11/GUITest.pm
 %attr(755,root,root) %{perl_vendorarch}/auto/X11/GUITest/GUITest.so
 %{perl_vendorarch}/auto/X11/GUITest/GUITest.bs
 %{_mandir}/man3/*
