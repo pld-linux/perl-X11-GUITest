@@ -8,13 +8,13 @@
 Summary:	X11::GUITest - GUI testing/interaction facilities
 Summary(pl):	X11::GUITest - u³atwienia do testowania/interakcji z GUI
 Name:		perl-X11-GUITest
-Version:	0.20
-Release:	0.1
+Version:	0.21
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d175896c876b932e11f5a3ffa313f189
+# Source0-md5:	2c7bf7e1079094bda698404961c28ac2
 BuildRequires:	XFree86-devel
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
