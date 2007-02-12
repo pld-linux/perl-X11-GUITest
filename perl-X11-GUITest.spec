@@ -6,7 +6,7 @@
 %define		pdir	X11
 %define		pnam	GUITest
 Summary:	X11::GUITest - GUI testing/interaction facilities
-Summary(pl):	X11::GUITest - u³atwienia do testowania/interakcji z GUI
+Summary(pl.UTF-8):   X11::GUITest - uÅ‚atwienia do testowania/interakcji z GUI
 Name:		perl-X11-GUITest
 Version:	0.21
 Release:	1
@@ -27,12 +27,12 @@ test/interact with GUI applications which have been built upon the X
 library or toolkits (i.e., GTK+, Xt, Qt, Motif, etc.) that "wrap" the
 X library's functionality.
 
-%description -l pl
-Ten pakiet Perla ma u³atwiæ testowanie aplikacji z graficznym
-interfejsem u¿ytkownika drog± emulacji u¿ytkownika. Mo¿e byæ u¿ywany
-do testowania lub interakcji z aplikacjami GUI opartymi o bibliotekê X
-lub toolkity (takie jak GTK+, Xt, Qt, Motif itp.) obudowuj±ce
-funkcjonalno¶æ biblioteki X.
+%description -l pl.UTF-8
+Ten pakiet Perla ma uÅ‚atwiÄ‡ testowanie aplikacji z graficznym
+interfejsem uÅ¼ytkownika drogÄ… emulacji uÅ¼ytkownika. MoÅ¼e byÄ‡ uÅ¼ywany
+do testowania lub interakcji z aplikacjami GUI opartymi o bibliotekÄ™ X
+lub toolkity (takie jak GTK+, Xt, Qt, Motif itp.) obudowujÄ…ce
+funkcjonalnoÅ›Ä‡ biblioteki X.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
