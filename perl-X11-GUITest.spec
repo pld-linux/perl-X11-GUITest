@@ -6,7 +6,7 @@
 %define		pdir	X11
 %define		pnam	GUITest
 Summary:	X11::GUITest - GUI testing/interaction facilities
-Summary(pl.UTF-8):   X11::GUITest - ułatwienia do testowania/interakcji z GUI
+Summary(pl.UTF-8):	X11::GUITest - ułatwienia do testowania/interakcji z GUI
 Name:		perl-X11-GUITest
 Version:	0.21
 Release:	1
