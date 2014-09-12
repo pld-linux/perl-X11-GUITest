@@ -63,5 +63,4 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/X11
 %dir %{perl_vendorarch}/auto/X11/GUITest
 %attr(755,root,root) %{perl_vendorarch}/auto/X11/GUITest/GUITest.so
-%{perl_vendorarch}/auto/X11/GUITest/GUITest.bs
 %{_mandir}/man3/*
