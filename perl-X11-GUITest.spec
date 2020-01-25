@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# do perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	X11
 %define		pnam	GUITest
 Summary:	X11::GUITest - GUI testing/interaction facilities
