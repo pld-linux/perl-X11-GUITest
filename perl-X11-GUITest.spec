@@ -8,7 +8,7 @@ Summary:	X11::GUITest - GUI testing/interaction facilities
 Summary(pl.UTF-8):	X11::GUITest - ułatwienia do testowania/interakcji z GUI
 Name:		perl-X11-GUITest
 Version:	0.25
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
