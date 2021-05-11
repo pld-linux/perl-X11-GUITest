@@ -41,7 +41,8 @@ funkcjonalność biblioteki X.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-%{__make}
+%{__make} \
+	OPTIMIZE="%{rpmcppflags} %{rpmcflags}"
 
 %{?with_tests:%{__make} test}
 
