@@ -7,13 +7,13 @@
 Summary:	X11::GUITest - GUI testing/interaction facilities
 Summary(pl.UTF-8):	X11::GUITest - ułatwienia do testowania/interakcji z GUI
 Name:		perl-X11-GUITest
-Version:	0.25
-Release:	18
+Version:	0.29
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/X11/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c2ea2418a5cef380e260dce9230c1d8b
+Source0:	https://www.cpan.org/authors/id/C/CT/CTRONDLP/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	28fa558a00a68e164c3ff0b167b94def
 URL:		http://search.cpan.org/dist/X11-GUITest/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	xorg-lib-libX11-devel
@@ -57,7 +57,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc docs/{Changes,ToDo,X11-GUITest*}
+%doc Changes ToDo docs/X11-GUITest.txt
 %dir %{perl_vendorarch}/X11
 %{perl_vendorarch}/X11/GUITest.pm
 %dir %{perl_vendorarch}/auto/X11
